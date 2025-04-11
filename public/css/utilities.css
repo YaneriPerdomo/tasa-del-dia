@@ -1,0 +1,15 @@
+.flex__align-items-center--space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex__align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-dark-green {
+    color: var(--color-dark-green);
+}

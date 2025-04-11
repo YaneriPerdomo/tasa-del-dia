@@ -1,0 +1,12 @@
+.header__content {
+    padding: 1rem;
+    border-bottom: solid 1px var(--color-green);
+}
+
+.header__list-item {
+    list-style: none;
+}
+
+.header__link {
+    text-decoration: none;
+}

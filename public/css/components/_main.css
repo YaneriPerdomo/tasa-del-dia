@@ -1,0 +1,5 @@
+.main__title {
+    padding: 1rem;
+    background: var(--color-green);
+    color: white;
+}

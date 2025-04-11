@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.heigh-full {
+    height: 100%;
+}
+
+:root {
+    --color-green: #4ea44e;
+    --color-light-green: #eaffea;
+    --color-dark-green: #264426;
+}
+
+html {
+    background: var(--color-light-green);
+}
+
+body {
+    background: none;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}

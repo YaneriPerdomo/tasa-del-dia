@@ -1,0 +1,9 @@
+export let $input_bcv = document.querySelector('.cup-of-the-day__input--bcv');
+export let $value_bcv = document.querySelector('.cup-of-the-day__value--bcv');
+export let $input_parallel = document.querySelector('.cup-of-the-day__input--parallel');
+export let $value_parallel = document.querySelector('.cup-of-the-day__value--parallel');
+export let $change_parallel = document.querySelector('.cup-of-the-day__change--parallel');
+export let $change_bcv = document.querySelector('.cup-of-the-day__change--bcv');
+export let $last_update_bcv = document.querySelector('.cup-of-the-day__last_update--bcv')
+export let $last_update_parallel = document.querySelector('.cup-of-the-day__last_update--parallel');
+export let $span_datetime = document.querySelector('.cup-of-the-day__date');

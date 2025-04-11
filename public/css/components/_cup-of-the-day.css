@@ -1,0 +1,10 @@
+.cup-of-the-day__block {
+    background: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.cup-of-the-day__content {
+    display: flex;
+    justify-content: center;
+}
