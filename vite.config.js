@@ -1,15 +1,14 @@
+// Ejemplo de configuración típica para Laravel + Vite
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-import tailwindcss from 'tailwindcss';
-import autoprefixer from 'autoprefixer';
+import vue from '@vitejs/plugin-vue'; // Si usas Vue
 
 export default defineConfig({
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-        }),
-        tailwindcss(),
-        autoprefixer(),
-    ],
+  plugins: [
+    laravel([
+      'resources/css/app.css',
+      'resources/js/app.js',
+    ]),
+    vue(), // Si usas Vue
+  ],
 });
